@@ -17,7 +17,7 @@ public class WebController {
         this.playerRepository = playerRepository;
     }
 
-    @GetMapping("/leaderboard")
+    @GetMapping("/")
     public String getLeaderboard(Model model) {
 
         List<Player> players = playerRepository.findAll();
