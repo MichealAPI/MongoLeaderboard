@@ -10,15 +10,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
 </head>
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid vh-100 background">
+
+        <div class="row justify-content-center vh-100 align-items-center">
+
+            <div class="col-md-3">
+
+                <div class="leaderboard d-flex flex-column align-items-center">
+                    <div class="title inter-bold">
+                        <h1>Leaderboard</h1>
+                    </div>
+
+                    <ol>
+                        <li class="inter-regular" th:each="player : ${players}">
+                            <span th:text="${player.getId()}"></span>: <span th:text="${player.getScore()}"></span>ms
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
 
 
-
+        </div>
 
     </div>
 

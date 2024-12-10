@@ -19,8 +19,10 @@ public class WebController {
 
     @GetMapping("/leaderboard")
     public String getLeaderboard(Model model) {
+
         List<Player> players = playerRepository.findAll();
         model.addAttribute("players", players);
+
         return "index";
     }
 

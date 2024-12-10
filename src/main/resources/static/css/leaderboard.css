@@ -1,0 +1,28 @@
+
+.leaderboard {
+    min-height: 400px;
+    background: var(--primary);
+    border-radius: 30px;
+}
+
+.leaderboard ol {
+
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.leaderboard ol li {
+    color: var(--secondary);
+}
+
+.leaderboard .title h1 {
+
+    margin-top: 40px;
+    justify-content: center;
+    color: var(--secondary);
+
+}
+
+
+/** Media Queries for Mobile **/
