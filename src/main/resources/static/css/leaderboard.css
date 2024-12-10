@@ -26,3 +26,28 @@
 
 
 /** Media Queries for Mobile **/
+@media
+only screen and (max-width: 760px) {
+
+    .leaderboard {
+        background: transparent;
+        justify-content: center;
+    }
+
+    .leaderboard ol {
+        margin-top: 20px;
+    }
+
+    .leaderboard ol li {
+        color: var(--primary);
+    }
+
+    .leaderboard .title h1 {
+
+        margin-top: 40px;
+        justify-content: center;
+        color: var(--primary);
+
+    }
+
+}
