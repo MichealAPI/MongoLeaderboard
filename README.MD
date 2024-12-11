@@ -1,6 +1,11 @@
 # MongoLeaderboard
+<img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></img>
+<img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"></img>
+<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></img>
+<img src="https://www.codefactor.io/repository/github/michealapi/mongoleaderboard/badge" alt="CodeFactor"></img>
 
 A simple leaderboard system using MongoDB and Spring Boot with a responsive front-end.
+
 
 ## Features
 
@@ -51,8 +56,3 @@ The application has also been deployed to Heroku. You can replicate the deployme
 `heroku create`
 3. **Deploy the application**:  
 `git push heroku main`
-
-<img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></img>
-<img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"></img>
-<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></img>
-<img src="https://www.codefactor.io/repository/github/michealapi/mongoleaderboard/badge" alt="CodeFactor"></img> 
