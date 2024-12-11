@@ -27,14 +27,14 @@ Leaderboard data is visible at: https://leaderboard.mikeslab.it
 ## Running the Application
 
 ### Prerequisites
-- Java >=17
+- Java **>=17**
 - Maven
 - MongoDB
 
 ### Steps
 1. **Clone the repository**:  
-`git clone https://github.com/MichealAPI/MongoLeaderboard.git
-cd MongoLeaderboard`
+`git clone https://github.com/MichealAPI/MongoLeaderboard.git`
+`cd MongoLeaderboard`
 
 2. **Build the project**:  
 `mvn clean install`
@@ -52,7 +52,7 @@ The application has also been deployed to Heroku. You can replicate the deployme
 3. **Deploy the application**:  
 `git push heroku main`
 
-
+<br>
 <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></img>
 <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"></img>
 <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></img>
